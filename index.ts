@@ -1,3 +1,5 @@
+export * from 'docker-compose';
+
 export {
   logOutput,
   getAllContainers,
@@ -7,4 +9,4 @@ export {
   removeContainers,
   removeImagesStartingWith,
   repoTags,
-} from './docker-util';
+} from './src/docker-util';

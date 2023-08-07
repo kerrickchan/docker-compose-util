@@ -1,6 +1,7 @@
 import { default as Docker, ContainerInfo, ImageInfo } from 'dockerode';
 
 export {
+  docker,
   logOutput,
   getAllContainers,
   getRunningContainers,
