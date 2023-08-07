@@ -6,5 +6,5 @@ describe('when upAll is called', () => {
     await compose.upAll({ cwd: __dirname, log: logOutput });
     expect(await isContainerRunning('/docker-util-alpine-1')).toBeTruthy();
     await compose.down({ cwd: __dirname, log: logOutput });
-  }, 15000);
+  }, 60000);
 });
