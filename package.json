@@ -1,0 +1,22 @@
+{
+  "name": "@kerrickdev/docker-util",
+  "version": "0.1.0",
+  "description": "Dockerize your Node.js app with ease.",
+  "author": {
+    "name": "Kerrick Chan",
+    "email": "me@kerrick.dev"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/dockerode": "^3.3.19",
+    "@types/jest": "^29.5.3",
+    "docker-compose": "^0.24.2",
+    "dockerode": "^3.3.5",
+    "jest": "^29.6.2",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}

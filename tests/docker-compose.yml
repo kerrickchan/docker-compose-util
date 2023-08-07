@@ -1,0 +1,6 @@
+version: '3'
+name: docker-util
+services:
+  alpine:
+    image: alpine:latest
+    tty: true
