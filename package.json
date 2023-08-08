@@ -1,6 +1,6 @@
 {
   "name": "@kerrickdev/docker-util",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Dockerize your Node.js app with ease.",
   "author": {
     "name": "Kerrick Chan",
